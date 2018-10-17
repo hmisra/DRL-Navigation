@@ -59,9 +59,12 @@ To train an agent using the code in this repository, you will need to follow the
         README.md
         p1_navigation_solution.ipynb
         Report.ipynb
+    python/
     __pycache__/
  ```
-4. Launch `p1_navigation_solution.ipynb` in Jupyter and start training the agent by executing the code in the notebook. 
+4. Extract the banana.app.zip file in the directory.
+
+5. Launch `p1_navigation_solution.ipynb` in Jupyter and start training the agent by executing the code in the notebook. 
 ``` bash
     $ jupyter notebook
 ```
@@ -72,3 +75,5 @@ To train an agent using the code in this repository, you will need to follow the
 4. `Report.ipynb` contains description of the solution and hyperparameters etc.
 5. `unity-environment.log` is the log file that is created during the training loop.
 6. `checkpoint.pth` contains the weights of the Pytorch model once the environment is successfully solved.
+7. `banana.app.zip` contains the unity environment file.
+8. `python\` directory contains all the dependencies.
