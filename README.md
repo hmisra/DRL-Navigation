@@ -2,7 +2,7 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-
+[dqn]: https://github.com/hmisra/DRL-Navigation/blob/master/dqn.png "Results"
 # Navigation
 
 ### Introduction
@@ -77,3 +77,6 @@ To train an agent using the code in this repository, you will need to follow the
 6. `checkpoint.pth` contains the weights of the Pytorch model once the environment is successfully solved.
 7. `banana.app.zip` contains the unity environment file.
 8. `python\` directory contains all the dependencies.
+
+### Results
+![DQN][dqn]
